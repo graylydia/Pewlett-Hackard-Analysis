@@ -25,12 +25,12 @@ Pewlett Hackard, a large company, is looking towards the future and needs help d
   * Assistant Engineer — 1:21
   * There are no managers elibible to mentor the 2 needed positions. 
 
- As you can see, having a 1 to 87 ratio for senior engineers is not practical. The mentor ratios for senior staff and technique leaders is not practical as well. As for mentoring the engineers, staff, and assistant engineers about a 1:20 ratio could be possible but not practical. 
+As you can see, having a 1 to 87 ratio for senior engineers is not practical. The mentor ratios for senior staff and     technique leaders is not practical as well. As for mentoring the engineers, staff, and assistant engineers about a 1:20 ratio could be possible but not practical. 
  
  <img width="503" alt="new_mentorship_eligibility_sql" src="https://user-images.githubusercontent.com/103657822/173253363-2b8ea512-9bb2-4ed2-b94d-f35d7104f400.png">
 <img width="709" alt="new_mentorship_eligibility" src="https://user-images.githubusercontent.com/103657822/173253366-e52c457e-5d94-4507-9146-858b3673b90a.png">
-* I performed another query to find a more realistic mentorship program by expanding the birth date to be from 1960-1965 in comparison to the original eligible mentors being born in 1965. 
+<ul><li>I performed another query to find a more realistic mentorship program by expanding the birth date to be from 1960-1965 in comparison to the original eligible mentors being born in 1965.</li></ul> 
 
 <img width="267" alt="new_mentorship_titles_sql" src="https://user-images.githubusercontent.com/103657822/173253447-dfe56e24-7171-4a29-b2e3-ad2a7e70d735.png">
 <img width="204" alt="new_mentorship_titles" src="https://user-images.githubusercontent.com/103657822/173253452-a19d6183-649d-49d7-915a-22203a6f5db2.png">
-Then I performed a count on this new data to determine the number of eligible mentors per title. With the new number of eligible mentors, you have more available mentors for the titles of engineers, staff, technique leaders, assistant engineers, and managers than retiring positions. As for senior engineers you have a ratio of 1:1.3 and for senior staff you have a ratio of 1:1.2. These ratios are much more attainable than the previous mentorship program.
+<ul><li>Then I performed a count on this new data to determine the number of eligible mentors per title. With the new number of eligible mentors, you have more available mentors for the titles of engineers, staff, technique leaders, assistant engineers, and managers than retiring positions. As for senior engineers you have a ratio of 1:1.3 and for senior staff you have a ratio of 1:1.2. These ratios are much more attainable than the previous mentorship program. </li></ul>
