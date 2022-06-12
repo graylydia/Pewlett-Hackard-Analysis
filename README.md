@@ -22,7 +22,7 @@ Pewlett Hackard, a large company, is looking towards the future and needs help d
   * Engineer — 1:23
   * Staff — 1:25
   * Technique Leader — 1:47
-  * Assistant Engineer — 1:21
+  * Assistant Engineer — 1:20
   * There are no managers elibible to mentor the 2 needed positions. 
 
 As you can see, having a 1 to 87 ratio for senior engineers is not practical. The mentor ratios for senior staff and     technique leaders is not practical as well. As for mentoring the engineers, staff, and assistant engineers about a 1:20 ratio could be possible but not practical. 
@@ -33,4 +33,4 @@ As you can see, having a 1 to 87 ratio for senior engineers is not practical. Th
 
 <img width="267" alt="new_mentorship_titles_sql" src="https://user-images.githubusercontent.com/103657822/173253447-dfe56e24-7171-4a29-b2e3-ad2a7e70d735.png">
 <img width="211" alt="new_mentorship_titles" src="https://user-images.githubusercontent.com/103657822/173258299-ee886bf6-3c0f-4a6e-aebd-7a33627c1d8c.png">
-<ul><li>Then I performed a count on this new data to determine the number of eligible mentors per title. With the new number of eligible mentors, you have more available mentors for the titles of engineers, staff, technique leaders, assistant engineers, and managers than retiring positions. As for senior engineers you have a ratio of 1:1.3 and for senior staff you have a ratio of 1:1.2. These ratios are much more attainable than the previous mentorship program. </li></ul>
+<ul><li>Then I performed a count on this new data to determine the number of eligible mentors per title. With the new number of eligible mentors, you have more available mentors for the titles of engineers, staff, technique leaders, assistant engineers, and managers than retiring positions. As for senior engineers you have a ratio of 1:1.3 and for senior staff you have a ratio of 1:1.1. These ratios are much more attainable than the previous mentorship program. </li></ul>
