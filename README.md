@@ -3,10 +3,10 @@
 ### Purpose
 Pewlett Hackard, a large company, is looking towards the future and needs help determining who will be retiring in the next few years and how many positions need to be filled. We built an employee database that determined these two questions as well as how many employees are retiring per title and the number of employees that are eligible to participate in a mentorship program. Through Structured Query Language we were able to prepare Pewlett Hackard for the upcoming “silver tsunami”.
 ## Results
-* In total, there are 72,458 retiring employees that have a title.
+* When finding the number of employees retiring per title, the DISTINCT ON () function allowed us to remove the rows where there were duplicate entries for one employee number. In total, there are 72,458 retiring employees that have a title.
 <img width="199" alt="retiring_titles" src="https://user-images.githubusercontent.com/103657822/173250713-3c09150f-a661-42a4-9ca6-352de566057a.png">
-<ul><li>There are 25,916 Senior Engineers retiring.</li></ul>
-<ul><li>Whereas, only 2 managers are retiring.</li></ul>
+<ul><li> As for finding the number of employees retiring for each title we used the COUNT method and grouped the count by title. The count method allowed us to count each employee number whereas if we had used the sum method it would have added up all of the employee numbers. </li></ul>
+<ul><li>Pewlett Hackard is going to have to fill a large amount of positions with a title. The most being, 25,916 senior engineers retiring. Whereas, only 2 managers are retiring.</li></ul>
 <img width="701" alt="mentorship_eligibility" src="https://user-images.githubusercontent.com/103657822/173258236-75c40499-ba03-4238-93cf-539c752dd93b.png">
 <img width="710" alt="mentorship_eligibility_tail" src="https://user-images.githubusercontent.com/103657822/173250749-73c3b926-636a-4ca7-931b-297dd1c82888.png">
 <ul><li>1,549 employees are eligible for the mentorship program.</li></ul>
